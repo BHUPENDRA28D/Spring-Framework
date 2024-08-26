@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://springframework.org/schema/context"
+  xmlns:p="http://springframework.org/schema/p"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+  
+
+  
+  <bean class="com.springcore.springcore.collections.Emp" name="emp1">
+     <property name="name" value="Radhe"/>
+     
+     <property name="phones">
+         <list>
+           <value>7854691477</value>
+           <value>9993955684</value>
+           <value>8885475466</value>
+         
+         </list>
+     </property>
+     
+     <property name="address">
+           <set>
+              <value>Delhi</value>
+              <value>Lucknow</value>
+              <value>Bhopal</value>
+           
+           </set>
+     
+     </property>
+     
+     <property name="courses">
+     
+      <map>
+      
+        <entry key="java" value="2 mon"/>
+        <entry key="Spring" value="1mon"/>
+        <entry key="Dockers" value="1 mon"/>
+      </map>
+     </property>
+  
+  
+  </bean>
+  
+  
+  <!--Collection Type Injections
+  
+  
+ Map
+  <bean>
+   <property name="">
+     <map>
+        <entry key="java" value="l month"/>
+        <entry key'="Python" value="2month" />
+     </map>
+    <property/>
+</bean>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  -->
+  
+  
+
+</beans>

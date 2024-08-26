@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="MVCDesginPattern">
+        <property name="context-root" value="MVCDesginPattern"/>
+        <property name="java-output-path" value="/MVCDesginPattern/build/classes"/>
+    </wb-module>
+</project-modules>

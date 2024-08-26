@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+  xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:context="http://springframework.org/schema/context"
+  xmlns:p="http://springframework.org/schema/p"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+  http://www.springframework.org/schema/context
+  http://www.springframework.org/schema/context/spring-context.xsd">
+  
+  <bean class="ccom.springcore.springcore.autowrie.Address" id="address">
+  
+   <property name="houseNo" value="12352"/>
+   <property name="city" value="Pune"/>
+   <property name="pincode" value="420911"/>
+   
+  </bean>
+  
+   <bean class="com.springcore.springcore.autowrie.Students" id="stdId" autowire="byName">
+  
+   
+   <property name="name" value="Depeak"/>
+   <property name="roolNo" value="1252"/>
+   
+   <!-- <property name="Adress" ref="addrId"/> -->
+   
+  </bean>
+  
+  </beans>

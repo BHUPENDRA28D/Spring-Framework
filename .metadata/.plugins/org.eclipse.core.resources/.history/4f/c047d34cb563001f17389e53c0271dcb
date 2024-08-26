@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+</head>
+<body>
+<h2>Welcome to MVC Architechture </h2>
+
+  <a href="Registor.html"> Register Here </a>
+  <a href ="login.html"> Login Here </a>
+  
+</body>
+</html>

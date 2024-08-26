@@ -1,0 +1,5 @@
+package com.sp.dbcon;
+
+public class DbConnection {
+
+}
